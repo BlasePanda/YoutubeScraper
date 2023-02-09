@@ -12,7 +12,7 @@ from selenium.webdriver.chrome.options import Options
 import logging
 logging.basicConfig(filename='scraper.log', level=logging.DEBUG)
 
-url = "https://www.youtube.com/@LMGClips/shorts"
+url = "youtube_url_page_you_want_to_scrap"
 
 
 channel_id = url.split('/')[4]
